@@ -1,6 +1,8 @@
 App developed for Eclipx as a challenge for a job interview
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+You need to copy src/firebaseConfig.example.js to src/firebaseConfig.js and replace with your key, you also need to provide a google js api key in src/Components/googleMaps.js.
 ## Available Scripts
 
 In the project directory, you can run:
