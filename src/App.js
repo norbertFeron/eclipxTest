@@ -5,7 +5,7 @@ import firebaseConfig from './firebaseConfig';
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Search from './Components/Search.js';
+import MapContainer from './Components/googleMaps.js';
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const firebaseAppAuth = firebaseApp.auth();
@@ -36,8 +36,8 @@ class App extends Component {
           }
         </header>
         <body>
-          Looking for a good place to be ? 
-          {/* add search bar and map */}
+          {/* add search bar */}
+          <MapContainer></MapContainer>
         </body>
       </div>
     );
